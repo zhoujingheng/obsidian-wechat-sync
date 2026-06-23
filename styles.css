@@ -1,0 +1,86 @@
+/* WeChat Sync Plugin Styles */
+
+.wechat-sync-settings .setting-item-description {
+  color: var(--text-muted);
+}
+
+.wechat-sync-status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.wechat-sync-status.syncing {
+  background-color: var(--color-blue);
+  color: var(--text-on-accent);
+}
+
+.wechat-sync-status.success {
+  background-color: var(--color-green);
+  color: var(--text-on-accent);
+}
+
+.wechat-sync-status.error {
+  background-color: var(--color-red);
+  color: var(--text-on-accent);
+}
+
+.wechat-sync-status.idle {
+  background-color: var(--background-secondary);
+  color: var(--text-muted);
+}
+
+.wechat-sync-summary {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: var(--background-secondary);
+}
+
+.wechat-sync-summary h3 {
+  margin: 0 0 8px 0;
+}
+
+.wechat-sync-summary ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.wechat-sync-setting-header {
+  border-top: 1px solid var(--background-modifier-border);
+  margin-top: 24px;
+  padding-top: 16px;
+}
+
+.wechat-sync-setting-header h2 {
+  margin-top: 0;
+}
+
+/* Message styling in preview */
+.wechat-msg {
+  padding: 4px 0;
+  line-height: 1.6;
+}
+
+.wechat-msg-sender {
+  font-weight: 600;
+  color: var(--color-blue);
+  margin-right: 8px;
+}
+
+.wechat-msg-time {
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.wechat-msg-system {
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.wechat-media {
+  color: var(--text-accent);
+  font-size: 0.9em;
+}
