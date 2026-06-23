@@ -1,0 +1,4 @@
+node_modules/
+*.ts
+!main.js
+.DS_Store
