@@ -1,0 +1,11 @@
+{
+  "id": "wechat-sync",
+  "name": "WeChat Sync",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Import WeChat chat history into Obsidian from WeChatMsg JSON exports with incremental sync support.",
+  "author": "Zhou Jingheng",
+  "authorUrl": "https://github.com/zhoujingheng",
+  "isDesktopOnly": true,
+  "main": "main.js"
+}
